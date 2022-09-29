@@ -3,11 +3,14 @@ import AddBreakTime from '../AddBreakTime/AddBreakTime';
 import Profile from '../Profile/Profile';
 
 const Details = (props) => {
+    // console.log(props);
     const { activityTime } = props;
     return (
         <div className='mt-lg-5'>
             <Profile></Profile>
-            <AddBreakTime activityTime={activityTime}></AddBreakTime>
+            <AddBreakTime
+                activityTime={activityTime}
+            ></AddBreakTime>
         </div>
     );
 };

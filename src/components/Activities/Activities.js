@@ -16,11 +16,9 @@ const Activities = () => {
 
 
     const handleAddToList = (time) => {
-        // console.log('clicked');
         let newActivityTime = 0
         newActivityTime = activityTime + time;
         setActivityTime(newActivityTime);
-        console.log(newActivityTime);
     }
 
     return (
@@ -40,7 +38,9 @@ const Activities = () => {
                 </div>
 
                 <div className='col-lg-3 col-md-12 col-12 details-container'>
-                    <Details activityTime={activityTime}></Details>
+                    <Details
+                        activityTime={activityTime}
+                    ></Details>
                 </div>
             </div>
         </div>
