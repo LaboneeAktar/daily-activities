@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import CalculateTime from '../TimeCalculate/CalculateTime';
 
 const AddBreakTime = (props) => {
@@ -15,7 +15,14 @@ const AddBreakTime = (props) => {
     ]
     const handleBreakTime = (value) => {
         setBreakTime(value);
+        localStorage.setItem('break-time', JSON.stringify(value));
     }
+    useEffect(() => {
+        const localStorageData = localStorage.getItem('break-time');
+        setBreakTime(localStorageData);
+    }, [])
+
+
     return (
         <div>
             <h5 className='mx-3 my-4'>Add a Break</h5>
