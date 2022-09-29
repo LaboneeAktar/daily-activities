@@ -2,11 +2,12 @@ import React from 'react';
 import AddBreakTime from '../AddBreakTime/AddBreakTime';
 import Profile from '../Profile/Profile';
 
-const Details = () => {
+const Details = (props) => {
+    const { activityTime } = props;
     return (
-        <div className='position-sticky top-0'>
+        <div className='mt-lg-5'>
             <Profile></Profile>
-            <AddBreakTime></AddBreakTime>
+            <AddBreakTime activityTime={activityTime}></AddBreakTime>
         </div>
     );
 };

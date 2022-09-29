@@ -6,6 +6,7 @@ import './Activities.css';
 
 const Activities = () => {
     const [activities, setActivities] = useState([]);
+    const [activityTime, setActivityTime] = useState(0);
 
     useEffect(() => {
         fetch('fakeData.json')
@@ -13,23 +14,33 @@ const Activities = () => {
             .then(data => setActivities(data))
     }, [])
 
+
+    const handleAddToList = (time) => {
+        // console.log('clicked');
+        let newActivityTime = 0
+        newActivityTime = activityTime + time;
+        setActivityTime(newActivityTime);
+        console.log(newActivityTime);
+    }
+
     return (
         <div>
             <div className="row">
-                <div className='col-lg-9 col-md-12 col-12'>
+                <div className='col-lg-9 col-md-12 col-12 mb-5'>
                     <Header></Header>
                     <div className='row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 m-3 px-5'>
                         {
                             activities.map(activity => <Activity
                                 activity={activity}
                                 key={activity._id}
+                                handleAddToList={handleAddToList}
                             ></Activity>)
                         }
                     </div>
                 </div>
 
-                <div className='col-lg-3 col-md-12 col-12 details-container position-relative'>
-                    <Details></Details>
+                <div className='col-lg-3 col-md-12 col-12 details-container'>
+                    <Details activityTime={activityTime}></Details>
                 </div>
             </div>
         </div>
