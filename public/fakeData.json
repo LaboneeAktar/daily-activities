@@ -1,0 +1,65 @@
+[
+    {
+        "_id": "6334f1cccbf0aab9712f5059",
+        "picture": "https://img.freepik.com/free-photo/woman-lying-bed-turning-off-alarm-clock-morning-5am-hand-turns-off-alarm-clock-waking-up-morning-girl-turns-off-alarm-clock-waking-up-morning-from-call_657921-121.jpg?w=740&t=st=1664415327~exp=1664415927~hmac=1f1411b1d3cd1bf30246e75d366a0c84eac1491bf028ab1dbc5574d0af19f24d",
+        "title": "Wake Up and Fresh",
+        "time": 20,
+        "about": " Early to bed and early to rise, Makes a man healthy and wealthy and wise."
+    },
+    {
+        "_id": "6334f1ccba6b8c98cde2bab7",
+        "picture": "https://t3.ftcdn.net/jpg/03/25/16/56/360_F_325165682_yaMcOmlEQXOxrQXtCtdSZpir3HFvSbEH.jpg",
+        "title": "Prayer",
+        "time": 20,
+        "about": "Praise be to Allah. It is Sunnah to raise one's hands in four places during the prayer."
+    },
+    {
+        "_id": "6334f1ccd778f744eafeb6cd",
+        "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7fEOZlN3yblSNhZ3zKtIvyq29QDYSrd9v4s07RobppQtO9wKkjt_1YCBXamkOSxhSLcU&usqp=CAU",
+        "title": "Cooking",
+        "time": 40,
+        "about": "Cooking, cookery, or culinary arts is the art, science and craft of using heat to prepare food for consumption. Cooking techniques and ingredients vary widely, from grilling food over an open fire to using electric stoves, to baking in various types of ovens, reflecting local conditions."
+    },
+    {
+        "_id": "6334f1ccd8ec7d7297d43a45",
+        "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQp-Viw6gyYkgSj76hbUt7Bsm7DELaiJw4Eaw&usqp=CAU",
+        "title": "Shower",
+        "time": 30,
+        "about": "Bathing has been linked to improved mental health. This is because taking a warm shower can reduce symptoms of depression and anxiety."
+    },
+    {
+        "_id": "6334f1cc32650291a4f41d6d",
+        "picture": "https://img.jakpost.net/c/2019/03/23/2019_03_23_68364_1553356106._large.jpg",
+        "title": "Eating",
+        "time": 20,
+        "about": "Following a healthy diet has many benefits, including building strong bones, protecting the heart, preventing disease, and boosting the mood."
+    },
+    {
+        "_id": "6334f1cc31476c65781b4c2b",
+        "picture": "https://www.ourtimebd.com/beta/wp-content/uploads/2016/06/crop380w_istock_000002193842xsmall-books.jpg",
+        "title": "Study",
+        "time": 180,
+        "about": "Educational goals are statements that describe the skills, competencies and qualities that you should possess upon completion of a course or program."
+    },
+    {
+        "_id": "6334f1ccb49ea05b16111165",
+        "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRh75U_n0AU-K4wCUUakaglJk75eK37YURYOB4jVx6evDK9OrDzbNBMP-I9Hvdc1lsF3rk&usqp=CAU",
+        "title": "Walking fot Refreshment",
+        "time": 20,
+        "about": "These nature quotes about the great outdoors will remind you just how beautiful the earth really is."
+    },
+    {
+        "_id": "6334f1ccb49ea05b16111165",
+        "picture": "https://play-lh.googleusercontent.com/edmBVFMS9fhuZycs2I6jCO7vGxhH434upOADR2e3x5Wi_s6Et4vcFY0gYs0q_B0qFS8",
+        "title": "Module Practice",
+        "time": 360,
+        "about": "Become a Web Developer need to hard work. So, do practice and practice."
+    },
+    {
+        "_id": "6334f1ccb49ea05b16111165",
+        "picture": "https://miro.medium.com/max/1024/1*ySiHBEl7fckXCzm3Qx7I6Q.png",
+        "title": "Go to Sleep",
+        "time": 360,
+        "about": "Your future depends on your dream. So go to sleep."
+    }
+]
