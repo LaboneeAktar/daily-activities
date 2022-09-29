@@ -14,7 +14,7 @@ const Activities = () => {
     return (
         <div>
             <div className="row">
-                <div className='col-9'>
+                <div className='col-lg-9 col-md-12 col-12'>
                     <Header></Header>
                     <div className='container row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 m-3 px-5'>
                         {
@@ -26,7 +26,7 @@ const Activities = () => {
                     </div>
                 </div>
 
-                <div className='col-3'>
+                <div className='col-lg-3 col-md-12 col-12'>
                     <h1>Details</h1>
                 </div>
             </div>
