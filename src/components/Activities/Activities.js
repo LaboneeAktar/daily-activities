@@ -14,17 +14,19 @@ const Activities = () => {
     return (
         <div>
             <div className="row">
-                <div className='col-8'>
+                <div className='col-9'>
                     <Header></Header>
-                    {
-                        activities.map(activity => <Activity
-                            activity={activity}
-                            key={activity._id}
-                        ></Activity>)
-                    }
+                    <div className='container row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 m-3 px-5'>
+                        {
+                            activities.map(activity => <Activity
+                                activity={activity}
+                                key={activity._id}
+                            ></Activity>)
+                        }
+                    </div>
                 </div>
 
-                <div className='col-4'>
+                <div className='col-3'>
                     <h1>Details</h1>
                 </div>
             </div>
