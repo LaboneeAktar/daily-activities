@@ -1,6 +1,6 @@
 import React from 'react';
 
-const TimeCalculate = () => {
+const AddBreakTime = () => {
     const breakTimes = [
         { id: 111, time: 10 },
         { id: 222, time: 20 },
@@ -21,4 +21,4 @@ const TimeCalculate = () => {
     );
 };
 
-export default TimeCalculate;
+export default AddBreakTime;

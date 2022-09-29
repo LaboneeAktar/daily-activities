@@ -1,12 +1,12 @@
 import React from 'react';
+import AddBreakTime from '../AddBreakTime/AddBreakTime';
 import Profile from '../Profile/Profile';
-import TimeCalculate from '../TimeCalculate/TimeCalculate';
 
 const Details = () => {
     return (
         <div className='position-sticky top-0'>
             <Profile></Profile>
-            <TimeCalculate></TimeCalculate>
+            <AddBreakTime></AddBreakTime>
         </div>
     );
 };
