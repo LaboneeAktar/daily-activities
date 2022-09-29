@@ -1,6 +1,16 @@
 import React from 'react';
+import Swal from 'sweetalert2';
 
 const CalculateTime = ({ activityTime, breakTime }) => {
+
+    const handleToast = () => {
+        Swal.fire(
+            'Good job!',
+            'Your Activity is Completed!',
+            'success'
+        )
+    }
+
     return (
         <div>
             <h5 className='mx-3 my-4'>Activity Details</h5>
@@ -11,7 +21,7 @@ const CalculateTime = ({ activityTime, breakTime }) => {
                 <h5>Break Time : <span className='ms-4 text-muted'>{breakTime} Minutes </span></h5>
             </div>
             <div className='text-center'>
-                <button className='btn btn-danger px-lg-5 py-lg-2 ms-lg-4 ms-md-5 ms-5'>Activity Complete</button>
+                <button onClick={handleToast} className='btn btn-danger px-lg-5 py-lg-2 ms-lg-4 ms-md-5 ms-5'>Activity Complete</button>
             </div>
         </div >
     );
