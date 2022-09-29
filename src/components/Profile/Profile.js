@@ -21,15 +21,15 @@ const Profile = () => {
                     <div className='info d-flex justify-content-around p-3 rounded-3'>
                         <span>
                             <h5>5.5</h5>
-                            <h5>Height</h5>
+                            <p>Height</p>
                         </span>
                         <span>
                             <h5>45Kg</h5>
-                            <h5>Weight</h5>
+                            <p>Weight</p>
                         </span>
                         <span>
                             <h5>22yrs</h5>
-                            <h5>Age</h5>
+                            <p>Age</p>
                         </span>
 
                     </div>

@@ -1,9 +1,9 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCheckSquare } from '@fortawesome/free-solid-svg-icons'
+import { faCheckSquare } from '@fortawesome/free-solid-svg-icons';
 
 const Activity = (props) => {
-    console.log(props.activity);
+    // console.log(props.activity);
     const { picture, title, about, time } = props.activity;
     return (
         <div>
